@@ -1,0 +1,6 @@
+ const enviarporId = (e) =>{
+        e.preventDefault()
+        const url= `/panel/Estudiante/${viewEstudiante[0].idstudent}`
+        
+        console.log(url)
+    }
